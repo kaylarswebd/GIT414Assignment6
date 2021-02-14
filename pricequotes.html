@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <title>Prices</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<div class="container">
+    
+    <header>
+
+        <nav> 
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="pricequotes.html">Price Quotes</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav> 
+    
+        <div class="logo">
+            <img src="images/logo.png" alt="">
+        </div><br>
+    
+        <h1>The Goods RV Repair</h1>
+    </header>
+
+<section class="pricequotessec">
+    <h2>Quotes on Repairs</h2>
+    <p>Mechanical Issue – We service a lot of mechanical issues from axles, to wheels, all the way to the lift kit. When it comes to these problems, we got you.</p>
+    <p>Interior Designing - We have the tools and the skills to make the inside of your RV the way that you want it! So if you are thinking of redesigning the inside of your RV you can count on us!</p>
+    <p>Appliances - If you are having furnace, fridge, microwave, or any other type of appliance issue we can help you fix it, or replace it! </p>
+</section>
+
+<section class="links2">
+
+    <aside class="left">
+        <div class="js">
+        <h2>Select your repairs</h2>
+            <input name="repair" value="500" type="checkbox" onclick="totalPrice()" /><span>Alex Repair $500</span><br>
+            <input name="repair" value="100" type="checkbox" onclick="totalPrice()" /><span> Wheel Repair (1) $100</span><br>
+            <input name="repair" value="750" type="checkbox" onclick="totalPrice()" /><span>Frame Repair $750</span> <br>
+            <input name="repair" value="500" type="checkbox" onclick="totalPrice()" /><span> Interior Redesign$500</span><br>
+            <input name="repair" value="150" type="checkbox" onclick="totalPrice()" /><span>Basic appliance fix$50</span>
+        </div>
+    </aside>
+    <aside class="right">
+        <div class="js">
+            <h2>Total</h2>
+            <input value="$0.00" type="text" name="total"/>
+        </div>
+        <a href="contact.html"><h2>Contact</h2></a>
+    </aside>
+</section>
+
+<footer>
+
+    <article class="left">
+        <h2>Follow us</h2>
+    <ul>
+        <li><a href="http://facebook.com"> <img src="images/facebookicon.png" alt=""> *Facebook link</a></li>
+        <li><a href="http://youtube.com"> <img src="images/youtubeicon.png" alt=""> *YouTube link</a></li>
+        <li><a href="http://linkedin.com"> <img src="images/linkedinicon.png" alt=""> *Linkedin link</a></li>
+    </ul>
+    </article>
+
+    <article class="right">
+        <h6 class="firsth6">Phone: 651-555-1234</h6>
+        <h6>Address: 1234 Lane Dr.</h6>
+        <h6>Mahtomedi, MN 55115</h6>
+    </article>
+
+    <p>Site for educational purposes only</p>
+</footer>
+
+<script>
+function totalPrice() {
+  var input = document.getElementsByName("repair");
+  var total = 0;
+  for (var i = 0; i < input.length; i++) {
+    if (input[i].checked) {
+      total += parseFloat(input[i].value);
+    }
+  }
+  document.getElementsByName("total")[0].value = "$" + total;
+}
+</script>
+
+</div>
+
+</body>
+
+</html>
