@@ -134,283 +134,312 @@ table {
     border-spacing: 0;
 }
 
+.container {
+    width: 100%;
+}
 
-@media only screen and (min-width: 600px) {
-    .container {
-        width: 100%;
+header {
+    border-radius: 50px;
+    height: 600px;
+
+    background-size: cover;
+    text-align: center;
+
+    img {
+        height: 450px;
+        text-shadow: 2px 2px 5px white;
     }
 
-    header {
+    ul {
+        padding: 10px;
+    }
+
+    nav ul li {
+        float: left;
+    }
+
+    nav ul li a {
+        font-size: 50px;
+        ;
+        padding: 12px;
+        color: #dda90c;
+        text-decoration: none;
+        font-family: 'Roboto Condensed', sans-serif;
+    }
+
+    nav ul li a:hover {
+        color: white;
+    }
+
+    h1 {
+        font-family: 'Roboto Condensed', sans-serif;
+        font-size: 56px;
+        font-weight: 700;
+        color: white;
+    }
+}
+
+.about,
+.pricequotessec,
+.contactsec {
+    background-color: #07c1ff;
+
+    h2 {
+        padding: 12px;
+        font-weight: 700;
+        font-family: 'Roboto Condensed', sans-serif;
+        text-decoration: underline;
+    }
+
+    p {
+        text-indent: 18px;
+        padding: 18px;
+        font-family: 'Roboto Condensed', sans-serif;
+    }
+}
+
+section.links {
+    .left {
         border-radius: 50px;
-        height: 600px;
-        background-image: url("/images/banner.png");
-        background-size: cover;
+        line-height: 350px;
+        font-size: 75px;
         text-align: center;
-        img {
-            height: 450px;
-            text-shadow: 2px 2px 5px white;
-        }
-        ul {
-            padding: 10px;
-        }
-        nav ul li {
-            float: left;
-        }
-        nav ul li a {
-            font-size: 50px;
-            ;
-            padding: 12px;
-            color: #dda90c;
-            text-decoration: none;
-            font-family: 'Roboto Condensed', sans-serif;
-        }
-        nav ul li a:hover {
-            color: white;
-        }
-        h1 {
-            font-family: 'Roboto Condensed', sans-serif;
-            font-size: 56px;
-            font-weight: 700;
-            color: white;
-        }
-    }
+        width: 100%;
+        float: left;
+        height: 450px;
 
-    .about,
-    .pricequotessec,
-    .contactsec {
-        background-color: #07c1ff;
+        background-size: cover;
 
-        h2 {
-            padding: 12px;
-            font-weight: 700;
-            font-family: 'Roboto Condensed', sans-serif;
-            text-decoration: underline;
-        }
-        p {
-            text-indent: 18px;
-            padding: 18px;
-            font-family: 'Roboto Condensed', sans-serif;
-        }
-    }
-
-    section.links {
-        .left {
-            border-radius: 50px;
-            line-height: 350px;
-            font-size: 75px;
-            text-align: center;
-            width: 100%;
-            float: left;
-            height: 450px;
-            background-image: url(/images/insidehouse.jpg);
-            background-size: cover;
-            a {
-                text-decoration: none;
-            }
-            h2 {
-                font-size: 150px;
-                color: white;
-                font-family: 'Roboto Condensed', sans-serif;
-            }
-            h2:hover {
-                color: white;
-            }
-        }
-        .right {
-            border-radius: 50px;
-            line-height: 350px;
-            font-size: 75px;
-            text-align: center;
-            width: 100%;
-            float: right;
-            height: 450px;
-            background-image: url(/images/rvonroad.jpg);
-            background-size: cover;
-            a {
-                text-decoration: none;
-            }
-            h2 {
-                font-size: 150px;
-                color: white;
-                font-family: 'Roboto Condensed', sans-serif;
-            }
-            h2:hover {
-                color: white;
-            }
-        }
-    }
-
-    section.links2 {
-        .left { 
-            border-radius: 50px;
-            text-align: center;
-            line-height: 42px;
-            width: 100%;
-            float: left;
-            height: 450px;
-            background-image: url(/images/insidehouse.jpg);
-            background-size: cover;
-            .js {
-                h2 {
-                    margin-top: 18px;
-                    font-family: 'Roboto Condensed', sans-serif;
-                    color: white;
-                    font-weight: 700;
-                    font-size: 42px;
-                    text-decoration: underline;
-                }
-                input {
-                    width: 30px;
-                    height: 50px;
-                }
-                span {
-                    color: #dda90c;
-                    font-weight: 700;
-                    font-size: 42px;
-                }
-            }
-           
-        }
-        .right {
-            border-radius: 50px;
-            text-align: center;
-            width: 100%;
-            float:right;
-            height: 450px;
-            background-image: url(/images/rvonroad.jpg);
-            background-size: cover;
-            .js {
-                h2 {
-                    margin-top: 18px;
-                    font-family: 'Roboto Condensed', sans-serif;
-                    color: white;
-                    font-weight: 700;
-                    font-size: 42px;
-                    text-decoration: underline;
-                }
-                input {
-                    margin-top: 18px;
-                    font-size: 42px;
-                    width: 300px;
-                }
-            }
-        }
         a {
             text-decoration: none;
         }
+
         h2 {
             font-size: 150px;
             color: white;
             font-family: 'Roboto Condensed', sans-serif;
         }
+
         h2:hover {
             color: white;
         }
     }
 
-    section.links3 {
-        .left {
-            border-radius: 50px;
-            width: 100%;
-            float: left;
-            height: 450px;
-            background-image: url(/images/insidehouse.jpg);
-            background-size: cover;
-            h3 {                
-                margin: 18px;
+    .right {
+        border-radius: 50px;
+        line-height: 350px;
+        font-size: 75px;
+        text-align: center;
+        width: 100%;
+        float: right;
+        height: 450px;
+
+        background-size: cover;
+
+        a {
+            text-decoration: none;
+        }
+
+        h2 {
+            font-size: 150px;
+            color: white;
+            font-family: 'Roboto Condensed', sans-serif;
+        }
+
+        h2:hover {
+            color: white;
+        }
+    }
+}
+
+section.links2 {
+    .left {
+        border-radius: 50px;
+        text-align: center;
+        line-height: 42px;
+        width: 100%;
+        float: left;
+        height: 450px;
+        background-size: cover;
+
+        .js {
+            h2 {
+                margin-top: 18px;
                 font-family: 'Roboto Condensed', sans-serif;
                 color: white;
                 font-weight: 700;
-                font-size: 32px;
+                font-size: 42px;
                 text-decoration: underline;
             }
+
             input {
-                margin-top: 18px;
-                font-size: 22px;
-                width: 300px;
-                margin: 8px;
+                width: 30px;
+                height: 50px;
             }
-            .btn {
-                width: 150px;
+
+            span {
+                color: #dda90c;
+                font-weight: 700;
+                font-size: 42px;
             }
         }
 
-        .right {
-            border-radius: 50px;
-            line-height: 350px;
-            font-size: 75px;
-            text-align: center;
-            width: 100%;
-            float: right;
-            height: 450px;
-            background-image: url(/images/rvonroad.jpg);
-            background-size: cover;
-            a {
-                text-decoration: none;
-            }
+    }
+
+    .right {
+        border-radius: 50px;
+        text-align: center;
+        width: 100%;
+        float: right;
+        height: 450px;
+        background-size: cover;
+
+        .js {
             h2 {
-                font-size: 150px;
-                color: white;
+                margin-top: 18px;
                 font-family: 'Roboto Condensed', sans-serif;
-            }
-            h2:hover {
                 color: white;
+                font-weight: 700;
+                font-size: 42px;
+                text-decoration: underline;
+            }
+
+            input {
+                margin-top: 18px;
+                font-size: 42px;
+                width: 300px;
             }
         }
     }
 
+    a {
+        text-decoration: none;
+    }
 
-    footer {
+    h2 {
+        font-size: 150px;
+        color: white;
+        font-family: 'Roboto Condensed', sans-serif;
+    }
+
+    h2:hover {
+        color: white;
+    }
+}
+
+section.links3 {
+    .left {
+        border-radius: 50px;
+        width: 100%;
+        float: left;
+        height: 450px;
+        background-size: cover;
+
+        h3 {
+            margin: 18px;
+            font-family: 'Roboto Condensed', sans-serif;
+            color: white;
+            font-weight: 700;
+            font-size: 32px;
+            text-decoration: underline;
+        }
+
+        input {
+            margin-top: 18px;
+            font-size: 22px;
+            width: 300px;
+            margin: 8px;
+        }
+
+        .btn {
+            width: 150px;
+        }
+    }
+
+    .right {
+        border-radius: 50px;
+        line-height: 350px;
+        font-size: 75px;
+        text-align: center;
+        width: 100%;
+        float: right;
+        height: 450px;
+        background-size: cover;
+
+        a {
+            text-decoration: none;
+        }
+
+        h2 {
+            font-size: 150px;
+            color: black;
+            font-family: 'Roboto Condensed', sans-serif;
+        }
+
+        h2:hover {
+            color: white;
+        }
+    }
+}
+
+
+footer {
+    height: 250px;
+    background-color: #07c1ff;
+
+    .left {
+        h2 {
+            font-size: 42px;
+            font-family: 'Roboto Condensed', sans-serif;
+            padding: 12px;
+            margin-top: 12px;
+        }
+
+        text-align: center;
+        width: 100%;
+        float: left;
+        height: 350px;
+        background-color: #07c1ff;
+
+        ul li {
+            line-height: 42px;
+            font-weight: 700;
+            font-size: 22px;
+            text-align: center;
+        }
+
+        ul li a {
+            text-decoration: none;
+            color: white;
+            font-family: 'Roboto Condensed', sans-serif;
+            font-size: 42px;
+        }
+
+        img {
+            width: 75px;
+        }
+    }
+
+    .right {
+        width: 100%;
+        float: right;
         height: 250px;
         background-color: #07c1ff;
-        .left {
-            h2 {
-                font-size: 42px;
-                font-family: 'Roboto Condensed', sans-serif;
-                padding: 12px;
-                margin-top: 12px;
-            }
-            text-align: center;
-            width: 100%;
-            float: left;
-            height: 350px;
-            background-color: #07c1ff;
-            ul li {
-                line-height: 42px;
-                font-weight: 700;
-                font-size: 22px;
-                text-align: center;
-            }
-            ul li a {
-                text-decoration: none;
-                color: white;
-                font-family: 'Roboto Condensed', sans-serif;
-                font-size: 42px;
-            }
-            img {
-                width: 75px;
-            }
-        }
-        .right {
-            width: 100%;
-            float: right;
-            height: 250px;
-            background-color: #07c1ff;
 
-            .firsth6 {
-                padding-top: 42px;
-            }
+        .firsth6 {
+            padding-top: 42px;
+        }
 
-            h6 {
-                line-height: 62px;
-                font-weight: 700;
-                font-size: 42px;
-                text-align: center;
-                font-family: 'Roboto Condensed', sans-serif;
-            }
-        }
-        p {
+        h6 {
+            line-height: 62px;
+            font-weight: 700;
+            font-size: 42px;
             text-align: center;
+            font-family: 'Roboto Condensed', sans-serif;
         }
+    }
+
+    p {
+        text-align: center;
     }
 }

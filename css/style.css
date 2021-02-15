@@ -133,264 +133,302 @@ table {
   border-spacing: 0;
 }
 
-@media only screen and (min-width: 600px) {
-  .container {
-    width: 100%;
-  }
-  header {
-    border-radius: 50px;
-    height: 600px;
-    background-image: url("/images/banner.png");
-    background-size: cover;
-    text-align: center;
-  }
-  header img {
-    height: 450px;
-    text-shadow: 2px 2px 5px white;
-  }
-  header ul {
-    padding: 10px;
-  }
-  header nav ul li {
-    float: left;
-  }
-  header nav ul li a {
-    font-size: 50px;
-    padding: 12px;
-    color: #dda90c;
-    text-decoration: none;
-    font-family: 'Roboto Condensed', sans-serif;
-  }
-  header nav ul li a:hover {
-    color: white;
-  }
-  header h1 {
-    font-family: 'Roboto Condensed', sans-serif;
-    font-size: 56px;
-    font-weight: 700;
-    color: white;
-  }
-  .about,
-  .pricequotessec,
-  .contactsec {
-    background-color: #07c1ff;
-  }
-  .about h2,
-  .pricequotessec h2,
-  .contactsec h2 {
-    padding: 12px;
-    font-weight: 700;
-    font-family: 'Roboto Condensed', sans-serif;
-    text-decoration: underline;
-  }
-  .about p,
-  .pricequotessec p,
-  .contactsec p {
-    text-indent: 18px;
-    padding: 18px;
-    font-family: 'Roboto Condensed', sans-serif;
-  }
-  section.links .left {
-    border-radius: 50px;
-    line-height: 350px;
-    font-size: 75px;
-    text-align: center;
-    width: 100%;
-    float: left;
-    height: 450px;
-    background-image: url(/images/insidehouse.jpg);
-    background-size: cover;
-  }
-  section.links .left a {
-    text-decoration: none;
-  }
-  section.links .left h2 {
-    font-size: 150px;
-    color: white;
-    font-family: 'Roboto Condensed', sans-serif;
-  }
-  section.links .left h2:hover {
-    color: white;
-  }
-  section.links .right {
-    border-radius: 50px;
-    line-height: 350px;
-    font-size: 75px;
-    text-align: center;
-    width: 100%;
-    float: right;
-    height: 450px;
-    background-image: url(/images/rvonroad.jpg);
-    background-size: cover;
-  }
-  section.links .right a {
-    text-decoration: none;
-  }
-  section.links .right h2 {
-    font-size: 150px;
-    color: white;
-    font-family: 'Roboto Condensed', sans-serif;
-  }
-  section.links .right h2:hover {
-    color: white;
-  }
-  section.links2 .left {
-    border-radius: 50px;
-    text-align: center;
-    line-height: 42px;
-    width: 100%;
-    float: left;
-    height: 450px;
-    background-image: url(/images/insidehouse.jpg);
-    background-size: cover;
-  }
-  section.links2 .left .js h2 {
-    margin-top: 18px;
-    font-family: 'Roboto Condensed', sans-serif;
-    color: white;
-    font-weight: 700;
-    font-size: 42px;
-    text-decoration: underline;
-  }
-  section.links2 .left .js input {
-    width: 30px;
-    height: 50px;
-  }
-  section.links2 .left .js span {
-    color: #dda90c;
-    font-weight: 700;
-    font-size: 42px;
-  }
-  section.links2 .right {
-    border-radius: 50px;
-    text-align: center;
-    width: 100%;
-    float: right;
-    height: 450px;
-    background-image: url(/images/rvonroad.jpg);
-    background-size: cover;
-  }
-  section.links2 .right .js h2 {
-    margin-top: 18px;
-    font-family: 'Roboto Condensed', sans-serif;
-    color: white;
-    font-weight: 700;
-    font-size: 42px;
-    text-decoration: underline;
-  }
-  section.links2 .right .js input {
-    margin-top: 18px;
-    font-size: 42px;
-    width: 300px;
-  }
-  section.links2 a {
-    text-decoration: none;
-  }
-  section.links2 h2 {
-    font-size: 150px;
-    color: white;
-    font-family: 'Roboto Condensed', sans-serif;
-  }
-  section.links2 h2:hover {
-    color: white;
-  }
-  section.links3 .left {
-    border-radius: 50px;
-    width: 100%;
-    float: left;
-    height: 450px;
-    background-image: url(/images/insidehouse.jpg);
-    background-size: cover;
-  }
-  section.links3 .left h3 {
-    margin: 18px;
-    font-family: 'Roboto Condensed', sans-serif;
-    color: white;
-    font-weight: 700;
-    font-size: 32px;
-    text-decoration: underline;
-  }
-  section.links3 .left input {
-    margin-top: 18px;
-    font-size: 22px;
-    width: 300px;
-    margin: 8px;
-  }
-  section.links3 .left .btn {
-    width: 150px;
-  }
-  section.links3 .right {
-    border-radius: 50px;
-    line-height: 350px;
-    font-size: 75px;
-    text-align: center;
-    width: 100%;
-    float: right;
-    height: 450px;
-    background-image: url(/images/rvonroad.jpg);
-    background-size: cover;
-  }
-  section.links3 .right a {
-    text-decoration: none;
-  }
-  section.links3 .right h2 {
-    font-size: 150px;
-    color: white;
-    font-family: 'Roboto Condensed', sans-serif;
-  }
-  section.links3 .right h2:hover {
-    color: white;
-  }
-  footer {
-    height: 250px;
-    background-color: #07c1ff;
-  }
-  footer .left {
-    text-align: center;
-    width: 100%;
-    float: left;
-    height: 350px;
-    background-color: #07c1ff;
-  }
-  footer .left h2 {
-    font-size: 42px;
-    font-family: 'Roboto Condensed', sans-serif;
-    padding: 12px;
-    margin-top: 12px;
-  }
-  footer .left ul li {
-    line-height: 42px;
-    font-weight: 700;
-    font-size: 22px;
-    text-align: center;
-  }
-  footer .left ul li a {
-    text-decoration: none;
-    color: white;
-    font-family: 'Roboto Condensed', sans-serif;
-    font-size: 42px;
-  }
-  footer .left img {
-    width: 75px;
-  }
-  footer .right {
-    width: 100%;
-    float: right;
-    height: 250px;
-    background-color: #07c1ff;
-  }
-  footer .right .firsth6 {
-    padding-top: 42px;
-  }
-  footer .right h6 {
-    line-height: 62px;
-    font-weight: 700;
-    font-size: 42px;
-    text-align: center;
-    font-family: 'Roboto Condensed', sans-serif;
-  }
-  footer p {
-    text-align: center;
-  }
+/*container*/ /**/
+.container {
+  width: 100%;
+}
+/*header*/
+header {
+  border-radius: 50px;
+  height: 600px;
+  background-size: cover;
+  text-align: center;
+}
+
+header img {
+  height: 450px;
+  text-shadow: 2px 2px 5px white;
+}
+
+header ul {
+  padding: 10px;
+}
+
+header nav ul li {
+  float: left;
+}
+
+header nav ul li a {
+  font-size: 50px;
+  padding: 12px;
+  color: #dda90c;
+  text-decoration: none;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+header nav ul li a:hover {
+  color: white;
+}
+
+header h1 {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 56px;
+  font-weight: 700;
+  color: white;
+}
+/*about pricing and contact form*/
+.about,
+.pricequotessec,
+.contactsec {
+  background-color: #07c1ff;
+}
+
+.about h2,
+.pricequotessec h2,
+.contactsec h2 {
+  padding: 12px;
+  font-weight: 700;
+  font-family: 'Roboto Condensed', sans-serif;
+  text-decoration: underline;
+}
+
+.about p,
+.pricequotessec p,
+.contactsec p {
+  text-indent: 18px;
+  padding: 18px;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+section.links .left {
+  border-radius: 50px;
+  line-height: 350px;
+  font-size: 75px;
+  text-align: center;
+  width: 100%;
+  float: left;
+  height: 450px;
+  background-size: cover;
+}
+
+section.links .left a {
+  text-decoration: none;
+}
+
+section.links .left h2 {
+  font-size: 150px;
+  color: white;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+section.links .left h2:hover {
+  color: white;
+}
+
+section.links .right {
+  border-radius: 50px;
+  line-height: 350px;
+  font-size: 75px;
+  text-align: center;
+  width: 100%;
+  float: right;
+  height: 450px;
+  background-size: cover;
+}
+
+section.links .right a {
+  text-decoration: none;
+}
+
+section.links .right h2 {
+  font-size: 150px;
+  color: white;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+section.links .right h2:hover {
+  color: white;
+}
+
+section.links2 .left {
+  border-radius: 50px;
+  text-align: center;
+  line-height: 42px;
+  width: 100%;
+  float: left;
+  height: 450px;
+  background-size: cover;
+}
+
+section.links2 .left .js h2 {
+  margin-top: 18px;
+  font-family: 'Roboto Condensed', sans-serif;
+  color: white;
+  font-weight: 700;
+  font-size: 42px;
+  text-decoration: underline;
+}
+
+section.links2 .left .js input {
+  width: 30px;
+  height: 50px;
+}
+
+section.links2 .left .js span {
+  color: #dda90c;
+  font-weight: 700;
+  font-size: 42px;
+}
+
+section.links2 .right {
+  border-radius: 50px;
+  text-align: center;
+  width: 100%;
+  float: right;
+  height: 450px;
+  background-size: cover;
+}
+
+section.links2 .right .js h2 {
+  margin-top: 18px;
+  font-family: 'Roboto Condensed', sans-serif;
+  color: white;
+  font-weight: 700;
+  font-size: 42px;
+  text-decoration: underline;
+}
+
+section.links2 .right .js input {
+  margin-top: 18px;
+  font-size: 42px;
+  width: 300px;
+}
+
+section.links2 a {
+  text-decoration: none;
+}
+
+section.links2 h2 {
+  font-size: 150px;
+  color: white;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+section.links2 h2:hover {
+  color: white;
+}
+
+section.links3 .left {
+  border-radius: 50px;
+  width: 100%;
+  float: left;
+  height: 450px;
+  background-size: cover;
+}
+
+section.links3 .left h3 {
+  margin: 18px;
+  font-family: 'Roboto Condensed', sans-serif;
+  color: white;
+  font-weight: 700;
+  font-size: 32px;
+  text-decoration: underline;
+}
+
+section.links3 .left input {
+  margin-top: 18px;
+  font-size: 22px;
+  width: 300px;
+  margin: 8px;
+}
+
+section.links3 .left .btn {
+  width: 150px;
+}
+
+section.links3 .right {
+  border-radius: 50px;
+  line-height: 350px;
+  font-size: 75px;
+  text-align: center;
+  width: 100%;
+  float: right;
+  height: 450px;
+  background-size: cover;
+}
+
+section.links3 .right a {
+  text-decoration: none;
+}
+
+section.links3 .right h2 {
+  font-size: 150px;
+  color: black;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+section.links3 .right h2:hover {
+  color: white;
+}
+/*footer*/
+footer {
+  height: 250px;
+  background-color: #07c1ff;
+}
+
+footer .left {
+  text-align: center;
+  width: 100%;
+  float: left;
+  height: 350px;
+  background-color: #07c1ff;
+}
+
+footer .left h2 {
+  font-size: 42px;
+  font-family: 'Roboto Condensed', sans-serif;
+  padding: 12px;
+  margin-top: 12px;
+}
+
+footer .left ul li {
+  line-height: 42px;
+  font-weight: 700;
+  font-size: 22px;
+  text-align: center;
+}
+
+footer .left ul li a {
+  text-decoration: none;
+  color: white;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 42px;
+}
+
+footer .left img {
+  width: 75px;
+}
+
+footer .right {
+  width: 100%;
+  float: right;
+  height: 250px;
+  background-color: #07c1ff;
+}
+
+footer .right .firsth6 {
+  padding-top: 42px;
+}
+
+footer .right h6 {
+  line-height: 62px;
+  font-weight: 700;
+  font-size: 42px;
+  text-align: center;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+footer p {
+  text-align: center;
 }
 /*# sourceMappingURL=style.css.map */
